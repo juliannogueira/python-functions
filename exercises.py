@@ -4,17 +4,20 @@
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
-box1 = 20
-box2 = 21
+box_1 = 20
+box_2 = 21
 
 #2
 #Function - add
 #Create a function named `add` which will take two parameters: `num_1` and `num_2`.
- 
+def add(num_1, num_2):
+    return num_1 + num_2
+
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
+sum = add(box_1, box_2)
 
 #Print the sum variable to see your result.
-
+print(sum)
 
 #3
 #Function - subtract
