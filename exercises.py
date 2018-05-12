@@ -4,7 +4,8 @@
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
-
+box1 = 20
+box2 = 21
 
 #2
 #Function - add
