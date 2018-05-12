@@ -103,12 +103,14 @@ print(check_quotient())
 #10
 #Function - create_full_name
 #Create a function named create_full_name which takes two parameters: `first_name`, `last_name`.
+def create_full_name(first_name, last_name):
+    return first_name + ' ' + last_name
 
+my_full_name = create_full_name('Bob', 'Saget')
 #This function will return a string which represents someone's full name. Invoke this function by passing in your first and last name into the function. Store the return value into a variable named `my_full_name`.
 
 #Print the my_full_name variable to see your result.
-
-
+print(my_full_name)
 
 
 
