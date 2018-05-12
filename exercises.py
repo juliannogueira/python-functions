@@ -60,7 +60,7 @@ print(quotient)
 #Create a function named `check_sum` which will take a parameter: `x`.
 #This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value stored in the sum variable from exercise 2. Invoke this function and assign it to a variable named `da_diva`.
 def check_sum(x):
-    return 'Mariah Carey has been married ' + str(x) + ' amount of times.'
+    return 'Mariah Carey has been married ' + str(x) + '   amount of times.'
 
 da_diva = check_sum(sum)
 
@@ -70,11 +70,15 @@ print(da_diva)
 #7
 #Function - check_difference
 #Create a function named `check_difference` which will take a parameter `x`.
+def check_difference(x):
+    return 'Last night I dreamt that I ate ' + str(x) + ' Big Macs.'
+
+loving_it = check_difference(difference)
 
 #This function will return the string "Last night I dreamt that I ate `x` Big Macs."  Where `x` is the value stored in the difference variable from exercise 3. Invoke this function and assign it to a variable named `loving_it`
 
 #Print the loving_it variable to see your result.
-
+print(loving_it)
 
 #8
 #Function - check_product
